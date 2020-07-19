@@ -35,12 +35,7 @@ public class ImageController {
         return "imagePage";
     }
 
-    @PostMapping("/addImage")
-    public String addImage(@ModelAttribute Image image, @RequestParam("images") MultipartFile file) throws IOException {
-        imageService.upload(image,file,uploadDir);
-        imageService.save(image);
-        return "redirect:/imagePage?id=" + image.getCategory().getId();
-    }
+
 
     @GetMapping(value = "/images", produces = MediaType.IMAGE_JPEG_VALUE)
     public @ResponseBody

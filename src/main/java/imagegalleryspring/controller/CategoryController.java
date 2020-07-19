@@ -25,7 +25,6 @@ public class CategoryController {
     @Value("${file.upload.dir}")
     private String uploadDir;
     private final CategoryService categoryService;
-    private final ImageService imageService;
 
 
     @GetMapping("/")
@@ -35,12 +34,7 @@ public class CategoryController {
         return "index";
     }
 
-    @PostMapping("/addCategory")
-    public String addCategory(@ModelAttribute Category category, @RequestParam("image") MultipartFile file) throws IOException {
-        categoryService.upload(category,file,uploadDir);
-        categoryService.save(category);
-        return "redirect:/";
-    }
+
 
 
     @GetMapping(value = "/image", produces = MediaType.IMAGE_JPEG_VALUE)

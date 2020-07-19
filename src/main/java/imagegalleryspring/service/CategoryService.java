@@ -33,6 +33,6 @@ public class CategoryService {
         String name = System.currentTimeMillis() + "_" + file.getOriginalFilename();
         File image = new File(uploadDir,name);
         file.transferTo(image);
-            category.setPicUrl(name);
+        category.setPicUrl(name);
     }
 }
