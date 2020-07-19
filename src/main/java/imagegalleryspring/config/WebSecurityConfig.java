@@ -26,7 +26,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .logoutSuccessUrl("/")
                 .and()
                 .authorizeRequests()
-                .antMatchers(HttpMethod.GET, "/imagePage").hasAnyRole("ADMIN");
+                .antMatchers(HttpMethod.GET, "/").hasAnyRole("ADMIN");
     }
 
     @Override
