@@ -253,8 +253,9 @@ nav {
 
 #video-container .video-overlay {
   z-index: 9999;
-  background-image: url("https://cdn2.hubspot.net/hubfs/4783129/mara.jpg");
-  width: 100%;
+  background-image: url("https://lh3.googleusercontent.com/proxy/C7ZbIhU_3Ox4IOzpAfSlqf6kWufUvZcXML2Qo7Evtyp4FswN0GKkgXkUPCP9mD777oNYvR4Qadmks6QZoqgEzvI7S-GCddEs4M33jFXypt2ib-K0bjzFUSiYE4AfY3wo");
+  width: 1000px;
+  height: 500px;
 }
 
 #video-container .video-content {
@@ -541,7 +542,7 @@ nav {
   100% {
     top: 0%;
     opacity: 1;
-  }  
+  }
 }
 
 @keyframes totop-out {
@@ -552,7 +553,7 @@ nav {
   100% {
     top: -100%;
     opacity: 0;
-  }  
+  }
 }
 
 
@@ -1189,11 +1190,11 @@ footer a:hover {
 }
 
 .archives ul li, .categories ul li {
-  margin-bottom: 12px; 
+  margin-bottom: 12px;
 }
 
 .archives ul li:last-child, .categories ul li:last-child {
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
 }
 
 .archives ul li a, .categories ul li a {
@@ -1347,3 +1348,4 @@ footer a:hover {
   }
 
 }
+

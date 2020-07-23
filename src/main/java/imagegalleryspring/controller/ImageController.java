@@ -1,4 +1,4 @@
-package imagegalleryspring.controller;
+package main.java.imagegalleryspring.controller;
 
 import imagegalleryspring.model.Category;
 import imagegalleryspring.model.Image;

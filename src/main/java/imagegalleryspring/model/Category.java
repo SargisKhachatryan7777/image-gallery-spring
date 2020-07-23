@@ -1,4 +1,4 @@
-package imagegalleryspring.model;
+package main.java.imagegalleryspring.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package imagegalleryspring.controller;
+package main.java.imagegalleryspring.controller;
 
 import imagegalleryspring.model.Category;
 import imagegalleryspring.service.CategoryService;
@@ -24,16 +24,6 @@ public class CategoryController {
 
     @Value("${file.upload.dir}")
     private String uploadDir;
-    private final CategoryService categoryService;
-
-
-    @GetMapping("/")
-    public String homePage(ModelMap modelMap){
-        List<Category> category = categoryService.findAll();
-        modelMap.addAttribute("categories", category);
-        return "index";
-    }
-
 
 
 

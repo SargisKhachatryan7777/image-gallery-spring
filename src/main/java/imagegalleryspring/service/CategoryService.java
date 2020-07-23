@@ -1,4 +1,4 @@
-package imagegalleryspring.service;
+package main.java.imagegalleryspring.service;
 
 import imagegalleryspring.model.Category;
 import imagegalleryspring.repository.CategoryRepository;

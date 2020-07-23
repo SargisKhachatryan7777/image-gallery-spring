@@ -1,4 +1,4 @@
-package imagegalleryspring.config;
+package main.java.imagegalleryspring.config;
 
 
 import lombok.RequiredArgsConstructor;
